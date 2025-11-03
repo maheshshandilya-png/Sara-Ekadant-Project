@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand-primary: #0F4C81;
+  --brand-accent: #F59E0B;
+}
+
+.header-backdrop {
+  background: rgba(255,255,255,0.94);
+  backdrop-filter: blur(6px);
+}
