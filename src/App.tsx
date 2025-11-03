@@ -7,6 +7,7 @@ import { FloorPlans } from './components/FloorPlans';
 import { ImageGallery } from './components/ImageGallery';
 import { Features } from './components/Features';
 import { Location } from './components/Location';
+import { RERACard } from './components/RERACard';
 import { ContactForm } from './components/ContactForm';
 import { Footer } from './components/Footer';
 import { FloatingActions } from './components/FloatingActions';
@@ -30,6 +31,9 @@ function App() {
       </div>
       <Features />
       <Location />
+      <div id="rera">
+        <RERACard />
+      </div>
       <ContactForm />
       <Footer />
       <FloatingActions />
